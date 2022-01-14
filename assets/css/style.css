@@ -95,11 +95,26 @@ nav a {
 .page-wrapper img {
     width: 300px;
     box-shadow: 0 0 5px 4px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-about {
+    margin-top: auto;
+    margin-left: auto;
     float: right;
 }
 
+/* about me section */
+
+.about {
+    float: left;
+    box-shadow: 0px 2px;
+}
+
+.about h2 {
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+.about div {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+/* Project section */
