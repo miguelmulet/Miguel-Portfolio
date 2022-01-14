@@ -1,6 +1,7 @@
 /* Whole Site RULE */
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* Main Colors + Body Styles */
@@ -27,6 +28,23 @@ p {
     margin: 0;
 }
 
+/* Blinking animation */
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 /* Header */
 header {
     padding: 10px 6% 10px 0;
@@ -36,18 +54,52 @@ header {
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--primary);
-    font-size: 25px;
 }
 
 header h1 {
     color: var(--white);
+    font-size: 45px;
+    padding-left: 20px;
 }
 
-header a {
-    color: var(--secondary);
+/* NAVI Styles */
+nav {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+}
+
+nav a {
+    color: var(--secondary);
     font-size: 35px;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
 /* Hero */
+.hero {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: var(--secondary);
+}
+
+.hero h2 {
+    opacity: 0.8;
+}
+
+/* Page Wrapper */
+.page-wrapper img {
+    width: 300px;
+    box-shadow: 0 0 5px 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+about {
+    float: right;
+}
 
