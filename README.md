@@ -14,4 +14,4 @@
  Deployed web application: [Miguel's Portfolio](https://miguelmulet.github.io/Miguel-Portfolio/)
  
  ## Screenshot
- ![Deployed Website Photo](./assets/images/portfolioSS.png)
+ ![Deployed Website Photo](./assets/images/portfolio.png)
