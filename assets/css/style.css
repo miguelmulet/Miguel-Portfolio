@@ -124,7 +124,7 @@ nav a {
 .about {
     background: url("https://thumbs.gfycat.com/ValuableDisguisedCurlew-size_restricted.gif");
     float: center;
-    margin-left: 350px;
+    margin-left: 0px;
     margin-top: 3px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -132,6 +132,7 @@ nav a {
     border-bottom: 10px;
     border-style: solid;
     border-color: var(--primary);
+    line-height: 6;
 }
 
 .about h2 {
@@ -159,10 +160,6 @@ nav a {
     line-height: 5;
     color: var(--white);
     width: auto;
-    border-color: var(--primary);
-    border-radius: 5px;
-    border-style: solid;
-    background: url("https://thumbs.gfycat.com/ValuableDisguisedCurlew-size_restricted.gif");
 }
 
 .projects-container {
@@ -175,33 +172,38 @@ nav a {
 }
 
 .projects-item {
-    border: 7px solid var(--primary);
-    grid-column: span 4;
+    border: 5px solid var(--primary);
+    grid-column: span 8;
     color: var(--primary);
     min-height: 50px;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
     text-decoration: none;
-    background-blend-mode:hard-light;
     background-size: 100%;
-    transition: all 0.5s;
-    font-size: 0.8rem;
+    font-size: 25px;
+}
+
+.projects-item:hover {
+    background-color: var(--white);
+    opacity: 0.9;
 }
 
 .projects-item:first-child {
     grid-column: span 8;
-    grid-row: span 2;
+    grid-row: span 4;
 }
 
 .projects-item div {
     background-color: var(--primary);
-    padding: 3px 5px;
+    padding: 8px 10px;
     color: var(--white);
+    line-height: 2;
 }
 
 .projects-item h3 {
     font-size: 25px;
+    max-height: 35px;
 }
 
 /* Project Images */
@@ -215,10 +217,16 @@ nav a {
     background-image: url("../images/horiseonLogo.png");
     background-repeat: no-repeat;
     background-size: cover;
+    grid-column: span 4;
+    grid-row: span 2;
 }
 
 .PlaceHolder {
     background-image: url("../images/placeholer-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    grid-column: span 4;
+    grid-row: span 2;
 }
+
+/*
