@@ -8,3 +8,10 @@
                    __/ |                                                             
                   |___/                                                              
  ## Description
+ Here we have my second Assignment which is Advanced CSS!
+ I was instructed to create my own portfolio from scratch, only using HTML and CSS.
+ 
+ Deployed web application: [Miguel's Portfolio](https://miguelmulet.github.io/Miguel-Portfolio/)
+ 
+ ## Screenshot
+ ![Deployed Website Photo](./assets/images/portfolioSS.png)
