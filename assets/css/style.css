@@ -228,8 +228,6 @@ nav a {
     background-image: url("../images/travel_buddy.png");
     background-repeat: no-repeat;
     background-size: cover;
-    grid-column: span 4;
-    grid-row: span 2;
 }
 
 /* Contact */
